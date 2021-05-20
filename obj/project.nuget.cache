@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7HQVFONDoNMaGJz8UgN8ZYbH1BdMWgn9nG1YNZmSJ9ATvrma2SdkGf476YdgNx1qaY+9NmycS0KRebuRZODq0w==",
+  "dgSpecHash": "grLZjj4nu3pm8LGrdKlyL0eSU2+3falkDZAeWOY/Bmg47doDFZ1AugXsaisKC+Tihlh6Uazd07D2MU4CnH8N9Q==",
   "success": true,
-  "projectFilePath": "D:\\FIŠ\\Diplomsko\\COBISS\\Cobiss\\Cobiss\\Cobiss.csproj",
+  "projectFilePath": "D:\\FIŠ\\Diplomsko\\COBISS\\FIS-DIPL\\Cobiss.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\uporabnik\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

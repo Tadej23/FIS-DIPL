@@ -15,6 +15,7 @@ namespace Cobiss
         {
             string[] csvLinesAuth = System.IO.File.ReadAllLines("D:/CSV/authors.csv");
             string[] csvLinesAuthPub = System.IO.File.ReadAllLines("D:/CSV/authorsPub.csv");
+            string[] csvLinesPublications = System.IO.File.ReadAllLines("D:/CSV/publications.csv");
 
 
             /*
@@ -24,10 +25,9 @@ namespace Cobiss
                 Console.WriteLine(csvLinesAuthPub[i]);
             }
             */
-            
 
-            
             var authors = new List<Author>();
+            var publications = new List<Publication>();
 
             // Read csv, skip first line
             for (int i = 1; i < csvLinesAuth.Length; i++)
@@ -36,14 +36,19 @@ namespace Cobiss
                 authors.Add(aut);
             }
 
+            for (int i = 1; i < csvLinesPublications.Length; i++)
+            {
+                Publication pub = new Publication(csvLinesPublications[i]);
+                publications.Add(pub);
+            }
+
+
+
+
+
             // initialize new List of strings
-
-           
-
             string[] pubs = new string[csvLinesAuthPub.Length];
             string[] authorsList = new string[csvLinesAuthPub.Length];
-
-
 
             // Csv to pubs array and author array
             for (int i = 1; i < csvLinesAuthPub.Length; i++)
@@ -64,18 +69,25 @@ namespace Cobiss
 
             }
 
-
             // Izpis avtorjev
-            for (int i = 0; i < authors.Count; i++)
+            for (int i = 0; i < 5; i++)
             {
                 //Console.WriteLine(authors[i].CobissID  +  " " + authors[i].SicrisID + " " + authors[i].sezPub[0]);
                 Console.WriteLine(JsonConvert.SerializeObject(authors[i], Formatting.Indented));
                 
+            }
+
+
+            // Izpis avtorjev
+            for (int i = 0; i < 5; i++)
+            {
+
+                Console.WriteLine(JsonConvert.SerializeObject(publications[i], Formatting.Indented));
 
             }
 
-            
-            
+
+
             Console.WriteLine("Število avtorjev je : " + authors.Count + ".");
 
             Console.ReadKey();

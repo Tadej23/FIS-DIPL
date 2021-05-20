@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FIŠ\\Diplomsko\\COBISS\\Cobiss\\Cobiss\\Cobiss.csproj",
+      "projectUniqueName": "D:\\FIŠ\\Diplomsko\\COBISS\\FIS-DIPL\\Cobiss.csproj",
       "projectName": "Cobiss",
-      "projectPath": "D:\\FIŠ\\Diplomsko\\COBISS\\Cobiss\\Cobiss\\Cobiss.csproj",
+      "projectPath": "D:\\FIŠ\\Diplomsko\\COBISS\\FIS-DIPL\\Cobiss.csproj",
       "packagesPath": "D:\\Users\\uporabnik\\.nuget\\packages\\",
-      "outputPath": "D:\\FIŠ\\Diplomsko\\COBISS\\Cobiss\\Cobiss\\obj\\",
+      "outputPath": "D:\\FIŠ\\Diplomsko\\COBISS\\FIS-DIPL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\uporabnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
