@@ -1,0 +1,15 @@
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.exe
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.deps.json
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.runtimeconfig.json
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.runtimeconfig.dev.json
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.dll
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Cobiss.pdb
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.csprojAssemblyReference.cache
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.AssemblyInfoInputs.cache
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.AssemblyInfo.cs
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.dll
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.pdb
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.genruntimeconfig.cache
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.csproj.CoreCompileInputs.cache
+D:\FIŠ\Diplomsko\COBISS\Cobiss\Cobiss\obj\Debug\netcoreapp3.1\Cobiss.csproj.CopyComplete
