@@ -60,6 +60,7 @@ namespace Cobiss
                 authorsList[i] = lines[1];
              }
  
+            // add publications to authors
             for (int i = 0; i < authors.Count; i++)
             {
                 for (int j = 1; j < csvLinesAuthPub.Length; j++)
@@ -68,6 +69,19 @@ namespace Cobiss
                 }
 
             }
+
+            // add publications to authors
+            for (int i = 0; i < publications.Count; i++)
+            {
+                for (int j = 1; j < csvLinesAuthPub.Length; j++)
+                {
+                    if (publications[i].CobissID == pubs[j]) { publications[i].sezAuth.Add(pubs[j]); }
+                }
+
+            }
+
+
+
 
             // Izpis avtorjev
             for (int i = 0; i < 5; i++)
@@ -78,8 +92,8 @@ namespace Cobiss
             }
 
 
-            // Izpis avtorjev
-            for (int i = 0; i < 5; i++)
+            // Izpis publikacij
+            for (int i = 0; i < 50; i++)
             {
 
                 Console.WriteLine(JsonConvert.SerializeObject(publications[i], Formatting.Indented));
